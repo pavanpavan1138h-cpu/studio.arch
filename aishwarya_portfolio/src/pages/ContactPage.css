@@ -1,0 +1,47 @@
+.contact-page {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.contact-container {
+  width: 100%;
+}
+
+.contact-content {
+  margin-top: 3rem;
+  max-width: 600px;
+}
+
+.contact-content h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+.contact-content p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  background: rgba(255, 255, 255, 0.02);
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.contact-info-card p {
+  margin-bottom: 0;
+  font-size: 1.1rem;
+}
+
+.contact-link {
+  color: var(--accent-color);
+}

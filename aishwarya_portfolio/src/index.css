@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&display=swap');
+
+:root {
+  --bg-color: #050505;
+  --text-primary: #ffffff;
+  --text-secondary: #a3a3a3;
+  --accent-color: #d8c3a5;
+  --glass-bg: rgba(10, 10, 10, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --transition-smooth: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: 'Outfit', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  z-index: 0;
+}
+
+body::before, body::after {
+  content: '';
+  position: fixed;
+  width: 60vw;
+  height: 60vh;
+  border-radius: 50%;
+  filter: blur(140px);
+  z-index: -1;
+  animation: fluidBg 10s infinite alternate cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+body::before {
+  top: -20%;
+  left: -20%;
+  background: #7a00ff; /* Vivid Purple */
+}
+
+body::after {
+  bottom: -20%;
+  right: -20%;
+  background: #00f5d4; /* Electric Teal */
+  animation-delay: -5s;
+}
+
+@keyframes fluidBg {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(25vw, -10vh) scale(1.1); }
+  100% { transform: translate(40vw, 40vh) scale(1.4); }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 6%;
+}
+
+.glass-box {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+  background: #222;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
