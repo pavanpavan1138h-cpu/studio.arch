@@ -7,13 +7,12 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-info">
-            <div className="logo">studio<span>.m.arch</span></div>
+            <div className="logo">STUDIO<span>.M.ARCH</span></div>
             <p className="footer-tagline">Shaping tomorrow's spaces.</p>
           </div>
           <div className="footer-contact">
             <h3>Get in Touch</h3>
-            <p>aishwarya.rk757@gmail.com</p>
-            <p>+91 8951644757</p>
+            <p>Bangalore, India</p>
           </div>
 
         </div>

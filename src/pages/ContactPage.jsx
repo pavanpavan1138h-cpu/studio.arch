@@ -12,8 +12,6 @@ const ContactPage = () => {
             I am currently open for exciting new opportunities, collaborations, or freelance projects. Feel free to reach out directly via email.
           </p>
           <div className="contact-info-card">
-            <p><strong>Email:</strong> <a href="mailto:aishwarya.rk757@gmail.com" className="contact-link">aishwarya.rk757@gmail.com</a></p>
-            <p><strong>Mobile:</strong> <a href="tel:+918951644757" className="contact-link">+91 8951644757</a></p>
             <p><strong>Location:</strong> Bangalore, India</p>
           </div>
         </section>

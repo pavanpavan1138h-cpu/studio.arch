@@ -25,7 +25,7 @@ const Header = () => {
     <header className={`header ${scrolled ? 'scrolled glass-box' : ''} ${mobileMenuOpen ? 'menu-open' : ''}`}>
       <div className="container header-content">
         <Link to="/" className="logo">
-          studio.m.arch
+          STUDIO.M.ARCH
         </Link>
         
         <nav className={`nav-menu ${mobileMenuOpen ? 'mobile-nav' : ''}`}>
