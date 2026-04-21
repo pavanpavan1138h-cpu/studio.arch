@@ -25,12 +25,11 @@ const Header = () => {
     <header className={`header ${scrolled ? 'scrolled glass-box' : ''} ${mobileMenuOpen ? 'menu-open' : ''}`}>
       <div className="container header-content">
         <Link to="/" className="logo">
-          AISHWARYA.ARCH
+          studio.m.arch
         </Link>
         
         <nav className={`nav-menu ${mobileMenuOpen ? 'mobile-nav' : ''}`}>
           <Link to="/" className={location.pathname === '/' ? 'active' : ''}>Home</Link>
-          <Link to="/about-me" className={location.pathname === '/about-me' ? 'active' : ''}>About & Experience</Link>
           <Link to="/portfolio" className={location.pathname === '/portfolio' ? 'active' : ''}>Portfolio</Link>
           <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link>
         </nav>

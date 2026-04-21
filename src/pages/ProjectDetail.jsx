@@ -23,7 +23,7 @@ const ProtectedImage = ({ src, alt, className }) => (
       userSelect: 'none',
       textShadow: 'none'
     }}>
-      © aishwarya.arch
+      © studio.m.arch
     </div>
     <div style={{
       position: 'absolute', top: 0, left: 0,

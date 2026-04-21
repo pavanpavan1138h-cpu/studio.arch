@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-info">
-            <div className="logo">AISHWARYA<span>.ARCH</span></div>
+            <div className="logo">studio<span>.m.arch</span></div>
             <p className="footer-tagline">Shaping tomorrow's spaces.</p>
           </div>
           <div className="footer-contact">
@@ -18,7 +18,7 @@ const Footer = () => {
 
         </div>
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} AISHWARYA.ARCH. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} studio.m.arch. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
