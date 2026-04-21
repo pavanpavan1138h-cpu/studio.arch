@@ -9,7 +9,7 @@ const ContactPage = () => {
         <section className="contact-content fade-in">
           <h3>Get In Touch</h3>
           <p>
-            I am currently open for exciting new opportunities, collaborations, or freelance projects. Feel free to reach out directly via email.
+            Open to new opportunities, meaningful collaborations, and bespoke freelance projects — I warmly invite you to connect via email.
           </p>
           <div className="contact-info-card">
             <p><strong>Email:</strong> <a href="mailto:Manojkumarps25302@gmail.com" className="contact-link">Manojkumarps25302@gmail.com</a></p>
