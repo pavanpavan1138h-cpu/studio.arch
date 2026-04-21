@@ -1,7 +1,7 @@
 export const projectData = [
   {
     id: 1,
-    title: 'Facade Design for Mr.Abhilash',
+    title: 'Facade for Mr.Abhilash',
     category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/12IKb5AT1VEjAmFg8JQDlxuLKX4ayAeP1',
     gallery: [
@@ -54,7 +54,7 @@ export const projectData = [
   },
   {
     id: 5,
-    title: 'Kameleon Salon',
+    title: 'Interiors for Mr.Kamal',
     category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/1CDljv3QGVyC4yQmmFa9JQDu9GZfjUozg',
     gallery: [
@@ -69,7 +69,7 @@ export const projectData = [
   },
   {
     id: 6,
-    title: 'Interiors for Mr.Lakshmi Prakash',
+    title: 'Kameleon Salon',
     category: 'Commercial',
     image: 'https://lh3.googleusercontent.com/d/18VQ5XWHJeH1TtbShMJ_dCETcdPfNWEqu',
     gallery: [
@@ -84,7 +84,7 @@ export const projectData = [
   },
   {
     id: 7,
-    title: 'Layout for Mr.Tarun',
+    title: 'Facade Design for Mr.Linge Gowda',
     category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/1jDuw5vdXS8nO9MFTZyJcmB_4pyWyNaga',
     gallery: [
@@ -95,8 +95,8 @@ export const projectData = [
   },
   {
     id: 8,
-    title: 'Facade Design for Mr.Linge Gowda',
-    category: 'Commercial',
+    title: 'Pooja Design for Miss.Renuka',
+    category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/1uVW5iOjBXOHzvG1mMRkXikJnaxxHhrv4',
     gallery: [
       'https://lh3.googleusercontent.com/d/1iDdA49KDb9pY91_QAXzKetKclTzB-dCI',
@@ -108,7 +108,7 @@ export const projectData = [
   {
     id: 9,
     title: 'Interiors for Mr.Manjunath',
-    category: 'Hospitality',
+    category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/19XDUksQceI1lM9u_fEpMQtO126e2Yjio',
     gallery: [
       'https://lh3.googleusercontent.com/d/1mc6yvqvMHNB60sOPlcPR64_HcZn9XyYl',
@@ -126,8 +126,8 @@ export const projectData = [
   },
   {
     id: 10,
-    title: 'Prayer Room Design for Miss Renuka',
-    category: 'Public Space',
+    title: 'Interiors for Mr.Lakshmi Praksh',
+    category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/1tPG8p34O6kocBlZ6fBD76Zyl4fsGGq5M',
     gallery: [
       'https://lh3.googleusercontent.com/d/1-fWGTgUwCfEBSxE5N5541rUn6acD7xGi',
@@ -161,7 +161,7 @@ export const projectData = [
   },
   {
     id: 12,
-    title: 'Interiors for Mr.Ravi',
+    title: 'Facade Design for Miss.Shyla',
     category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/1MB884rIpkvhwsmUV0N9RsaQJLvIrWzjR',
     gallery: [
@@ -172,7 +172,7 @@ export const projectData = [
   },
   {
     id: 13,
-    title: 'Facade Design for Miss Shyla',
+    title: 'Interiors for Mr.Ravi',
     category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/1soBkocCExygysvdIyMdN_8c8iamXIGtl',
     gallery: [
@@ -193,8 +193,8 @@ export const projectData = [
   },
   {
     id: 14,
-    title: 'Lakeside Pavilion',
-    category: 'Public Space',
+    title: 'Layout Design for Mr.Tarun',
+    category: 'Commercial',
     image: 'https://lh3.googleusercontent.com/d/1Ber4lrXYqXDH_11ntz71QO4p1-QLLyHm',
     gallery: [
       'https://lh3.googleusercontent.com/d/1Ber4lrXYqXDH_11ntz71QO4p1-QLLyHm',
@@ -212,8 +212,8 @@ export const projectData = [
   },
   {
     id: 15,
-    title: 'Boutique Studio',
-    category: 'Commercial',
+    title: 'Facade Design for Mr.Lakshmi Kanth',
+    category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/10TJ6Si0wbBTAVuJW9m3p5SrR1y2eFI2G',
     gallery: [
       'https://lh3.googleusercontent.com/d/1Pg1RDneyYwtCAXFdkQYXQYsE_YM7qkoE'
@@ -221,7 +221,7 @@ export const projectData = [
   },
   {
     id: 16,
-    title: 'Minimalist Retreat',
+    title: 'Facade Design for Mr.Roopa',
     category: 'Residential',
     image: 'https://lh3.googleusercontent.com/d/1V6Vpy8SCeKsnw6Tu9jCuv2QqM92CzN4i',
     gallery: [
