@@ -98,13 +98,13 @@ html, body {
 
 @media (max-width: 768px) {
   .container {
-    padding: 0 25px;
+    padding: 0 6vw; /* Use vw for fluid margins on mobile */
   }
 }
 
 @media (max-width: 480px) {
   .container {
-    padding: 0 20px;
+    padding: 0 5vw;
   }
 }
 
@@ -129,7 +129,7 @@ html {
 }
 
 @media (max-width: 480px) {
-  html { font-size: 13px; }
+  html { font-size: 14px; } /* Slightly larger for readability on small screens */
 }
 
 .glass-box {

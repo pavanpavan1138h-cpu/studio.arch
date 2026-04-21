@@ -107,7 +107,7 @@
     justify-content: center;
   }
   .hero-title {
-    font-size: clamp(3rem, 12vw, 4rem);
+    font-size: clamp(2.4rem, 12vw, 4rem);
     text-align: center;
   }
   .hero-overlay {
