@@ -12,6 +12,8 @@ const Footer = () => {
           </div>
           <div className="footer-contact">
             <h3>Get in Touch</h3>
+            <p>Manojkumarps25302@gmail.com</p>
+            <p>+91 8105864508</p>
             <p>Bangalore, India</p>
           </div>
 
